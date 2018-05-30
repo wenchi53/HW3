@@ -1,0 +1,35 @@
+In this homework, I've complete all the setps and the extra credit step.
+
+The expected output will be as followed:
+
+Run-------------------------------------------------
+Test: test_programs/test_1.c
+
+test_programs/test_1.c:5:Array Out of Bounds Error(index 4/size 2).
+test_programs/test_1.c:5:Array Out of Bounds Error(index 3/size 2).
+test_programs/test_1.c:5:Array Out of Bounds Error(index 2/size 2).
+Test: test_programs/test_2.c
+
+test_programs/test_2.c:3:Array Out of Bounds Error(index 5/size 3).
+Test: test_programs/test_3.c
+
+test_programs/test_3.c:3:Array Out of Bounds Error(index 18446744073709551615/size 3).
+Test: test_programs/test_4.c
+
+test_programs/test_4.c:6:Array Out of Bounds Error(index 3/size 3).
+test_programs/test_4.c:5:Array Out of Bounds Error(index 3/size 3).
+test_programs/test_4.c:6:Array Out of Bounds Error(index 4/size 3).
+Test: test_programs/test_5.c
+
+test_programs/test_5.c:5:Array Out of Bounds Error(index 3/size 3).
+Test: test_programs/test_array.c
+
+test_programs/test_array.c:5:Array Out of Bounds Error(index 3/size 3).
+Done Run--------------------------------------------
+
+
+The first test case is an array with size 2 but access the position of 4, 3, and 2.
+The second test case is direct access to 5 but the size of the array is only 3.
+The third test case is array with negative index.
+The forth test case has double array.
+The fifth test case is an array with datatype of char.
